@@ -1,0 +1,380 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --light-color: #ecf0f1;
+    --success-color: #27ae60;
+    --tourist-color: #e67e22;
+    --professional-color: #9b59b6;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #333;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: var(--secondary-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 4rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Dashboard Selection Styles */
+.dashboard-selection {
+    margin: 2rem 0;
+}
+
+.dashboard-card {
+    display: block;
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    border: 3px solid transparent;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: inherit;
+}
+
+.student-card:hover {
+    border-color: var(--primary-color);
+}
+
+.tourist-card:hover {
+    border-color: var(--tourist-color);
+}
+
+.professional-card:hover {
+    border-color: var(--professional-color);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.student-card .card-icon {
+    color: var(--primary-color);
+}
+
+.tourist-card .card-icon {
+    color: var(--tourist-color);
+}
+
+.professional-card .card-icon {
+    color: var(--professional-color);
+}
+
+.dashboard-card h3 {
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.dashboard-card p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.card-features {
+    text-align: left;
+}
+
+.card-features span {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.card-features i {
+    color: var(--success-color);
+    margin-right: 0.5rem;
+}
+
+/* Common Form Styles */
+.form-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-title {
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.form-section {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.form-section-title {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.7rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Result Card Styles */
+.result-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.result-img {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.match-score {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: var(--success-color);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+    color: var(--primary-color);
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.tag {
+    background-color: #e1f0ff;
+    color: var(--primary-color);
+    border-radius: 20px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+/* Utility Styles */
+.error-message {
+    color: var(--accent-color);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: none;
+}
+
+.is-invalid {
+    border-color: var(--accent-color) !important;
+}
+
+.loading-spinner {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.result-section {
+    display: none;
+}
+
+footer {
+    background: var(--secondary-color);
+    color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Dashboard Tabs */
+.dashboard-tabs {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.nav-pills .nav-link {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    border-radius: 0;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.nav-pills .nav-link i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.tab-content {
+    padding: 0;
+}
+
+.tab-pane {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 0;
+    }
+    
+    .dashboard-card {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card-icon {
+        font-size: 2.5rem;
+    }
+}
+
+/* === TOURIST-SPECIFIC STYLES (Add these at the end) === */
+.itinerary-day {
+    border-left: 3px solid var(--primary-color);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    background: #fdf6e3;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.travel-badge {
+    background-color: #ffeaa7;
+    color: #d35400;
+    border-radius: 20px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.budget-badge-low { background-color: #d4edda; color: #155724; }
+.budget-badge-medium { background-color: #fff3cd; color: #856404; }
+.budget-badge-high { background-color: #f8d7da; color: #721c24; }
+
+.safety-high { color: #27ae60; }
+.safety-medium { color: #f39c12; }
+.safety-low { color: #e74c3c; }
+.climate-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+/* Professional-specific styles */
+.professional-badge {
+    background-color: #e8eaf6;
+    color: var(--primary-color);
+    border-radius: 20px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.salary-high { color: #27ae60; font-weight: bold; }
+.salary-medium { color: #f39c12; font-weight: bold; }
+.salary-low { color: #e74c3c; font-weight: bold; }
+
+.cost-high { color: #e74c3c; }
+.cost-medium { color: #f39c12; }
+.cost-low { color: #27ae60; }
+
+.visa-easy { color: #27ae60; }
+.visa-medium { color: #f39c12; }
+.visa-hard { color: #e74c3c; }
+
+.job-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 3px solid var(--primary-color);
+}
+
+.metric-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    width: 120px;
+    font-weight: 500;
+}
+
+.metric-value {
+    flex: 1;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Compass - Professional Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-globe-americas me-2"></i>
+                Global Compass - Professional
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">Advance Your Career Globally</h1>
+            <p class="lead">Find the best countries for your professional growth and lifestyle</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Input Form -->
+            <div class="col-lg-5">
+                <div class="form-container sticky-top" style="top: 20px;">
+                    <h3 class="form-title"><i class="fas fa-briefcase me-2"></i>Professional Profile</h3>
+                    <form id="professional-preferences-form">
+                        <!-- Professional Background Section -->
+                        <div class="form-section">
+                            <h5 class="form-section-title"><i class="fas fa-user-tie me-2"></i>Professional Background</h5>
+                            <div class="mb-3">
+                                <label class="form-label">Industry</label>
+                                <select class="form-select" id="industry" required>
+                                    <option value="" selected disabled>Select your industry</option>
+                                    <option value="tech">Technology/IT</option>
+                                    <option value="healthcare">Healthcare</option>
+                                    <option value="finance">Finance/Banking</option>
+                                    <option value="engineering">Engineering</option>
+                                    <option value="education">Education</option>
+                                    <option value="marketing">Marketing</option>
+                                    <option value="consulting">Consulting</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Job Role/Position</label>
+                                <input type="text" class="form-control" id="job-role" placeholder="e.g., Software Engineer, Data Scientist" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Years of Experience</label>
+                                <select class="form-select" id="experience" required>
+                                    <option value="" selected disabled>Select experience level</option>
+                                    <option value="entry">Entry Level (0-2 years)</option>
+                                    <option value="mid">Mid Level (3-7 years)</option>
+                                    <option value="senior">Senior Level (8+ years)</option>
+                                    <option value="executive">Executive Level (15+ years)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Key Skills (comma separated)</label>
+                                <input type="text" class="form-control" id="skills" placeholder="e.g., Python, Machine Learning, Project Management" required>
+                            </div>
+                        </div>
+                        
+                        <!-- Salary & Financial Section -->
+                        <div class="form-section">
+                            <h5 class="form-section-title"><i class="fas fa-money-bill-wave me-2"></i>Salary & Financials</h5>
+                            <div class="mb-3">
+                                <label class="form-label">Expected Annual Salary (USD)</label>
+                                <select class="form-select" id="expected-salary" required>
+                                    <option value="" selected disabled>Select expected salary</option>
+                                    <option value="30000">$30,000 - $50,000</option>
+                                    <option value="60000">$50,000 - $80,000</option>
+                                    <option value="90000">$80,000 - $120,000</option>
+                                    <option value="130000">$120,000 - $150,000</option>
+                                    <option value="160000">$150,000+</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Cost of Living Tolerance</label>
+                                <select class="form-select" id="cost-tolerance" required>
+                                    <option value="" selected disabled>Select cost tolerance</option>
+                                    <option value="low">Low Cost Priority</option>
+                                    <option value="medium">Balanced Cost/Salary</option>
+                                    <option value="high">High Salary Priority (Accept Higher Cost)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Savings Potential Importance</label>
+                                <select class="form-select" id="savings-importance">
+                                    <option value="" selected disabled>Select importance</option>
+                                    <option value="critical">Critical (High savings needed)</option>
+                                    <option value="important">Important</option>
+                                    <option value="moderate">Moderately Important</option>
+                                    <option value="low">Not Important</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Visa & Migration Section -->
+                        <div class="form-section">
+                            <h5 class="form-section-title"><i class="fas fa-passport me-2"></i>Visa & Migration</h5>
+                            <div class="mb-3">
+                                <label class="form-label">Visa Preference</label>
+                                <select class="form-select" id="visa-preference" required>
+                                    <option value="" selected disabled>Select visa preference</option>
+                                    <option value="work">Work Visa/Sponsorship</option>
+                                    <option value="pr">Permanent Residency Path</option>
+                                    <option value="digital">Digital Nomad Visa</option>
+                                    <option value="startup">Startup/Entrepreneur Visa</option>
+                                    <option value="any">Any Visa Type</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Timeframe for Relocation</label>
+                                <select class="form-select" id="relocation-timeframe">
+                                    <option value="" selected disabled>Select timeframe</option>
+                                    <option value="immediate">Immediate (0-3 months)</option>
+                                    <option value="short">Short Term (3-12 months)</option>
+                                    <option value="medium">Medium Term (1-2 years)</option>
+                                    <option value="long">Long Term (2+ years)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Family Considerations</label>
+                                <select class="form-select" id="family-considerations">
+                                    <option value="" selected disabled>Select family situation</option>
+                                    <option value="single">Single (No dependents)</option>
+                                    <option value="couple">Couple (No children)</option>
+                                    <option value="family">Family with Children</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Lifestyle & Preferences Section -->
+                        <div class="form-section">
+                            <h5 class="form-section-title"><i class="fas fa-heart me-2"></i>Lifestyle Preferences</h5>
+                            <div class="mb-3">
+                                <label class="form-label">Work-Life Balance Importance</label>
+                                <select class="form-select" id="work-life-balance" required>
+                                    <option value="" selected disabled>Select importance</option>
+                                    <option value="critical">Critical Priority</option>
+                                    <option value="important">Very Important</option>
+                                    <option value="moderate">Moderately Important</option>
+                                    <option value="low">Not Important</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Healthcare Quality Importance</label>
+                                <select class="form-select" id="healthcare-importance">
+                                    <option value="" selected disabled>Select importance</option>
+                                    <option value="critical">Critical Priority</option>
+                                    <option value="important">Very Important</option>
+                                    <option value="moderate">Moderately Important</option>
+                                    <option value="low">Not Important</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Language & Cultural Adaptation</label>
+                                <select class="form-select" id="cultural-adaptation">
+                                    <option value="" selected disabled>Select preference</option>
+                                    <option value="english">Prefer English-speaking</option>
+                                    <option value="multilingual">Comfortable with multilingual</option>
+                                    <option value="immersion">Willing to learn new language</option>
+                                    <option value="any">No preference</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Career Growth Opportunities</label>
+                                <select class="form-select" id="career-growth">
+                                    <option value="" selected disabled>Select importance</option>
+                                    <option value="critical">Critical (Rapid advancement needed)</option>
+                                    <option value="important">Important</option>
+                                    <option value="moderate">Moderately Important</option>
+                                    <option value="low">Not Important</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary w-100 mt-3">
+                            <i class="fas fa-search me-2"></i>Find Career Destinations
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Results Section -->
+            <div class="col-lg-7">
+                <div class="loading-spinner" id="loading-spinner">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-3">Analyzing your profile and finding optimal career destinations...</p>
+                </div>
+                
+                <div class="result-section" id="result-section">
+                    <h3 class="form-title"><i class="fas fa-map-marker-alt me-2"></i>Recommended Career Destinations</h3>
+                    <p class="text-muted">Countries offering the best opportunities for your profile</p>
+                    
+                    <div id="results-container">
+                        <!-- Results will be dynamically inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>Global Compass - Professional Career Migration Advisor</p>
+            <p class="mb-0">Intelligent country matching for career advancement</p>
+            <p class="mt-3">
+                <i class="fab fa-html5 me-2"></i>
+                <i class="fab fa-css3 me-2"></i>
+                <i class="fab fa-js me-2"></i>
+                <i class="fas fa-brain me-2"></i>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/professional.js"></script>
+</body>
+</html>
