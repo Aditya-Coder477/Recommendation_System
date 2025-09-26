@@ -1,0 +1,95 @@
+Country,University,QS World ranking,Tuition Fee (USD),Language,Post Study Visa,Climate,Popular Courses,Acceptance Rate,Safety Index,"Monthly Living Cost (USD, excl. rent)"
+USA,Massachusetts Institute of Technology (MIT),1,63654,English,Yes,Varied,"Computer Science, Business, Engineering",6.7,51.3,1717.8
+USA,Harvard University,4,55795,English,Yes,Varied,"Computer Science, Business, Engineering",3.4,51.3,1717.8
+USA,Stanford University,6,40860,English,Yes,Varied,"Computer Science, Business, Engineering",4,51.3,1717.8
+USA,California Institute of Technology (Caltech),10,45390,English,Yes,Varied,"Computer Science, Business, Engineering",6.4,51.3,1717.8
+USA,University of Pennsylvania,11,61575,English,Yes,Varied,"Computer Science, Business, Engineering",5.9,51.3,1717.8
+USA,"University of California, Berkeley",12,51964,English,Yes,Varied,"Computer Science, Business, Engineering",6.7,51.3,1717.8
+USA,Cornell University,16,51284,English,Yes,Varied,"Computer Science, Business, Engineering",6.8,51.3,1717.8
+USA,University of Chicago,21,62118,English,Yes,Varied,"Computer Science, Business, Engineering",6.9,51.3,1717.8
+USA,Princeton University,22,46265,English,Yes,Varied,"Computer Science, Business, Engineering",7,51.3,1717.8
+USA,Yale University,23,56850,English,Yes,Varied,"Computer Science, Business, Engineering",7.1,51.3,1717.8
+USA,Johns Hopkins University,32,44426,English,Yes,Varied,"Computer Science, Business, Engineering",6.8,51.3,1717.8
+USA,Columbia University,34,61962,English,Yes,Varied,"Computer Science, Business, Engineering",7.3,51.3,1717.8
+USA,"University of California, Los Angeles (UCLA)",42,54423,English,Yes,Varied,"Computer Science, Business, Engineering",7.2,51.3,1717.8
+USA,New York University (NYU),43,51363,English,Yes,Varied,"Computer Science, Business, Engineering",4,51.3,1717.8
+USA,University of Michiganâ€“Ann Arbor,44,56023,English,Yes,Varied,"Computer Science, Business, Engineering",5,51.3,1717.8
+USA,Northwestern University,50,48322,English,Yes,Varied,"Computer Science, Business, Engineering",5.6,51.3,1717.8
+USA,Carnegie Mellon University,58,41685,English,Yes,Varied,"Computer Science, Business, Engineering",9,51.3,1717.8
+USA,Duke University,61,40769,English,Yes,Varied,"Computer Science, Business, Engineering",8.2,51.3,1717.8
+USA,University of Texas at Austin,66,63333,English,Yes,Varied,"Computer Science, Business, Engineering",8.1,51.3,1717.8
+USA,University of Illinois Urbana-Champaign,69,42433,English,Yes,Varied,"Computer Science, Business, Engineering",8.4,51.3,1717.8
+USA,"University of California, San Diego",72,45311,English,Yes,Varied,"Computer Science, Business, Engineering",9.2,51.3,1717.8
+USA,University of Washington,76,45051,English,Yes,Varied,"Computer Science, Business, Engineering",8.5,51.3,1717.8
+USA,Brown University,79,46420,English,Yes,Varied,"Computer Science, Business, Engineering",10,51.3,1717.8
+USA,The Pennsylvania State University,89,57568,English,Yes,Varied,"Computer Science, Business, Engineering",15,51.3,1717.8
+USA,Purdue University,89,60939,English,Yes,Varied,"Computer Science, Business, Engineering",8.9,51.3,1717.8
+Australia,University of Melbourne,13,39769,English,Yes,Warm,"IT, Business, Health Sciences",10,58.8,1144.1
+Australia,University of Sydney,18,26396,English,Yes,Warm,"IT, Business, Health Sciences",12,58.8,1144.1
+Australia,UNSW Sydney,19,28666,English,Yes,Warm,"IT, Business, Health Sciences",13,58.8,1144.1
+Australia,Australian National University (ANU),30,38942,English,Yes,Warm,"IT, Business, Health Sciences",12.2,58.8,1144.1
+Australia,Monash University,37,38431,English,Yes,Warm,"IT, Business, Health Sciences",12.3,58.8,1144.1
+Australia,University of Queensland,40,22747,English,Yes,Warm,"IT, Business, Health Sciences",12.4,58.8,1144.1
+Australia,University of Western Australia,77,20189,English,Yes,Warm,"IT, Business, Health Sciences",12.5,58.8,1144.1
+Australia,University of Adelaide,82,39118,English,Yes,Warm,"IT, Business, Health Sciences",12.6,58.8,1144.1
+Australia,University of Technology Sydney,88,23005,English,Yes,Warm,"IT, Business, Health Sciences",12.7,58.8,1144.1
+Germany,Technical University of Munich (TUM),28,4658,English,Yes,Cold,"Engineering, Computer Science, Economics",12.8,65,1167
+Germany,Ludwig-Maximilians-UniversitÃ¤t MÃ¼nchen (LMU Munich),59,1899,English,Yes,Cold,"Engineering, Computer Science, Economics",12.9,65,1167
+Germany,Ruprecht-Karls-UniversitÃ¤t Heidelberg,84,1267,English,Yes,Cold,"Engineering, Computer Science, Economics",13,65,1167
+Germany,Freie UniversitÃ¤t Berlin,97,1528,English,Yes,Cold,"Engineering, Computer Science, Economics",13.1,65,1167
+Germany,RWTH Aachen University,99,3202,English,Yes,Cold,"Engineering, Computer Science, Economics",13.2,65,1167
+Germany,Karlsruhe Institute of Technology (KIT),102,3556,English,Yes,Cold,"Engineering, Computer Science, Economics",13.3,65,1167
+Germany,Humboldt University of Berlin,120,3890,English,Yes,Cold,"Engineering, Computer Science, Economics",13.4,65,1167
+Germany,TU Berlin,154,646,English,Yes,Cold,"Engineering, Computer Science, Economics",13.5,65,1167
+France,UniversitÃ© PSL (Paris Sciences & Lettres),24,9164,English,Yes,Mild,"Fashion, Arts, Business",13.6,54,1094
+France,Institut Polytechnique de Paris,46,5888,English,Yes,Mild,"Fashion, Arts, Business",13.7,54,1094
+France,Sorbonne University,63,9310,English,Yes,Mild,"Fashion, Arts, Business",22,54,1094
+France,Paris-Saclay University,73,8393,English,Yes,Mild,"Fashion, Arts, Business",13.8,54,1094
+UK,Imperial College London,2,30627,English,Yes,Mild,"Law, Business, Engineering",13.9,56,1422.3
+UK,University of Oxford,3,28792,English,Yes,Mild,"Law, Business, Engineering",17.5,56,1422.3
+UK,University of Cambridge,5,30555,English,Yes,Mild,"Law, Business, Engineering",21,56,1422.3
+UK,University College London (UCL),9,30253,English,Yes,Mild,"Law, Business, Engineering",14,56,1422.3
+UK,University of Edinburgh,27,28433,English,Yes,Mild,"Law, Business, Engineering",14.1,56,1422.3
+UK,University of Manchester,34,30233,English,Yes,Mild,"Law, Business, Engineering",14.2,56,1422.3
+UK,Kingâ€™s College London,40,31016,English,Yes,Mild,"Law, Business, Engineering",14.3,56,1422.3
+UK,London School of Economics (LSE),50,43897,English,Yes,Mild,"Law, Business, Engineering",14.4,56,1422.3
+UK,University of Bristol,54,22612,English,Yes,Mild,"Law, Business, Engineering",14.5,56,1422.3
+UK,University of Warwick,69,43425,English,Yes,Mild,"Law, Business, Engineering",14.6,56,1422.3
+UK,University of Glasgow,78,42619,English,Yes,Mild,"Law, Business, Engineering",14.7,56,1422.3
+UK,University of Birmingham,80,41870,English,Yes,Mild,"Law, Business, Engineering",14.8,56,1422.3
+UK,University of Southampton,80,43483,English,Yes,Mild,"Law, Business, Engineering",14.9,56,1422.3
+UK,University of Leeds,82,35787,English,Yes,Mild,"Law, Business, Engineering",15,56,1422.3
+UK,Durham University,89,37159,English,Yes,Mild,"Law, Business, Engineering",15.1,56,1422.3
+UK,University of St Andrews,104,32206,English,Yes,Mild,"Law, Business, Engineering",15.2,56,1422.3
+UK,University of Sheffield,105,28226,English,Yes,Mild,"Law, Business, Engineering",15.3,56,1422.3
+UK,University of Nottingham,108,34541,English,Yes,Mild,"Law, Business, Engineering",15.4,56,1422.3
+UK,Queen Mary University of London,120,23152,English,Yes,Mild,"Law, Business, Engineering",15.5,56,1422.3
+UK,Newcastle University,129,21585,English,Yes,Mild,"Law, Business, Engineering",15.6,56,1422.3
+UK,Lancaster University,141,23943,English,Yes,Mild,"Law, Business, Engineering",15.7,56,1422.3
+UK,University of Bath,150,43939,English,Yes,Mild,"Law, Business, Engineering",15.8,56,1422.3
+UK,University of Liverpool,165,39457,English,Yes,Mild,"Law, Business, Engineering",15.9,56,1422.3
+UK,University of Exeter,169,21021,English,Yes,Mild,"Law, Business, Engineering",16,56,1422.3
+UK,University of Reading,172,31653,English,Yes,Mild,"Law, Business, Engineering",16.1,56,1422.3
+UK,University of York,184,30805,English,Yes,Mild,"Law, Business, Engineering",16.2,56,1422.3
+UK,Cardiff University,186,33417,English,Yes,Mild,"Law, Business, Engineering",16.3,56,1422.3
+UK,Queenâ€™s University Belfast,206,40227,English,Yes,Mild,"Law, Business, Engineering",16.4,56,1422.3
+UK,Loughborough University,224,27989,English,Yes,Mild,"Law, Business, Engineering",16.5,56,1422.3
+UK,University of Aberdeen,236,29692,English,Yes,Mild,"Law, Business, Engineering",16.6,56,1422.3
+UK,University of Sussex,246,32990,English,Yes,Mild,"Law, Business, Engineering",16.7,56,1422.3
+UK,Heriotâ€‘Watt University,256,26873,English,Yes,Mild,"Law, Business, Engineering",16.8,56,1422.3
+UK,University of Strathclyde,281,25675,English,Yes,Mild,"Law, Business, Engineering",16.9,56,1422.3
+UK,University of Leicester,285,20161,English,Yes,Mild,"Law, Business, Engineering",17,56,1422.3
+UK,University of Surrey,285,24297,English,Yes,Mild,"Law, Business, Engineering",17.1,56,1422.3
+UK,Swansea University,298,20995,English,Yes,Mild,"Law, Business, Engineering",17.2,56,1422.3
+UK,University of East Anglia,332,31534,English,Yes,Mild,"Law, Business, Engineering",17.3,56,1422.3
+UK,Brunel University London,342,27629,English,Yes,Mild,"Law, Business, Engineering",17.4,56,1422.3
+UK,"City, University of London",352,21016,English,Yes,Mild,"Law, Business, Engineering",17.5,56,1422.3
+UK,University of Kent,380,44253,English,Yes,Mild,"Law, Business, Engineering",17.6,56,1422.3
+UK,"Birkbeck, University of London",408,42823,English,Yes,Mild,"Law, Business, Engineering",17.7,56,1422.3
+UK,Oxford Brookes University,416,44276,English,Yes,Mild,"Law, Business, Engineering",17.8,56,1422.3
+UK,University of Dundee,418,43247,English,Yes,Mild,"Law, Business, Engineering",17.9,56,1422.3
+UK,Aston University,423,44300,English,Yes,Mild,"Law, Business, Engineering",18,56,1422.3
+UK,University of Stirling,452,28529,English,Yes,Mild,"Law, Business, Engineering",18.1,56,1422.3
+UK,University of Essex,472,37262,English,Yes,Mild,"Law, Business, Engineering",18.2,56,1422.3
+UK,Bangor University,474,29268,English,Yes,Mild,"Law, Business, Engineering",18.3,56,1422.3
+UK,"Royal Holloway, University of London",477,41271,English,Yes,Mild,"Law, Business, Engineering",18.4,56,1422.3
