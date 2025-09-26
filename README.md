@@ -21,3 +21,22 @@ Intelligent country recommendation system for students, tourists, and profession
 3. Visit `http://localhost:5000`
 
 ## Project Structure
+Recommendation_System/
+├── frontend/
+│   ├── index.html
+│   ├── student-dashboard.html
+│   ├── tourist-dashboard.html
+│   ├── professional-dashboard.html
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       ├── main.js
+│       ├── student.js
+│       ├── tourist.js
+│       └── professional.js
+├── backend/ (if you have it)
+│   ├── app/
+│   ├── requirements.txt
+│   └── run.py
+├── README.md
+└── .gitignore
